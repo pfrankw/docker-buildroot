@@ -4,7 +4,7 @@ Containerized version of Buildroot.
 
 ## Example run
 ```
-docker run --rm -ti -v ./output:/output -v ./overlay:/buildroot/overlay:ro docker-buildroot make O=/output menuconfig
+docker run --rm -ti -v ./output:/output -v ./overlay:/buildroot/overlay:ro ghcr.io/pfrankw/docker-buildroot:v2024.08.1 make O=/output menuconfig
 ```
 
 
